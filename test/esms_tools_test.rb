@@ -5,17 +5,28 @@ require 'minitest/autorun'
 require 'esms_tools'
 
 describe EsmsTools do   # test module EsmsTools
-  it 'age-checker should answer correctly' do
-    good_team = 'oki'
-    assert EsmsTools.age_check(good_team)
+	it 'age-checker should answer correctly' do
+		good_team = 'oki'
+		assert EsmsTools.age_check(good_team,21)
 
-    wrong_team = 'tip'
-    assert false, EsmsTools.age_check(wrong_team)
+		wrong_team = 'bad'
+		assert false, EsmsTools.age_check(wrong_team,21)
     
-    error_team = 'err'
-    assert_raises EsmsTools.age_check(error_team)
-  end
+		error_team = 'err'
+		assert_raises EsmsTools.age_check(error_team,21)
+	end
+	it 'age-checker273 should answer correctly' do
+		good_team = 'oki273'
+		assert EsmsTools.age_check273(good_team,21)
 
+		wrong_team = 'bad273'
+		assert false, EsmsTools.age_check273(wrong_team,21)
+    
+		error_team = 'err273'
+		assert_raises EsmsTools.age_check273(error_team,21)
+	end
+	
+	
   #~ it 'debe validar documentos oficiales | should validate official document id.' do
     #~ doc = '79253302V'
     #~ assert DniNie.validate(doc)

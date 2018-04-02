@@ -1,6 +1,5 @@
 require 'rake/testtask'
-
-Rake::TestTask.new('test') do |t|
+Rake::TestTask.new('test/') do |t|
   t.pattern = 'test/**/*_test.rb'
 end
 

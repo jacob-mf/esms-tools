@@ -1,0 +1,12 @@
+v0.1.2 tested ok
+ included u21 check and end of season adjusts
+ 25 june 2017
+v0.1.3 fixed for make more compatible
+ age limit now is optional
+ adding v2.3.7 esms support, agecheck273 function
+ 20th July 2017
+v0.2.1 adding binary content
+ separates operations for win executable files
+ prepare end of season changes for v273 
+v0.3.4 prepare rake test
+ create gem, test

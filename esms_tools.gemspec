@@ -1,9 +1,9 @@
 Gem::Specification.new do |s|
   s.name        = 'esms_tools'
-  s.version     = '0.1.2'
-  s.date        = '2017-04-24'
+  s.version     = '0.3.4'
+  s.date        = '2018-04-02' #start on '2017-04-24'
   s.summary     = "ESMS  (text football manager game) extra tools"
-  s.description = "A gem to provide extra tools to the ESMS (Electronic Soccer Management Simulator)"
+  s.description = "A gem to provide extra tools to the ESMS (Electronic Soccer Management Simulator) world"
   s.authors     = ["L. Jacob Mariscal Fernández"]
   s.email       = 'l.jacob.m.f@gmail.com'
   s.files       = ["lib/esms_tools.rb"]
